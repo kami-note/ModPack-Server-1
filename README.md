@@ -81,6 +81,42 @@ Se você deseja jogar com esses mods em um servidor, peça ao administrador do s
 3. Insira o endereço IP do servidor e clique em `Concluído`.
 4. Selecione o servidor e clique em `Entrar no Servidor`.
 
-## Conclusão
+### Passo 7: Atualizando o ModPack
 
-Agora você deve estar pronto para jogar Minecraft com os mods configurados! Se encontrar qualquer problema, você pode abrir uma [issue](https://github.com/kami-note/ModPack-Server-1/issues) no repositório ou pedir ajuda na comunidade do servidor.
+De tempos em tempos, novos mods ou versões atualizadas podem ser adicionados ao ModPack. Veja abaixo como atualizar sua pasta de mods para a versão mais recente:
+
+#### Método 1: Atualizando com Git (Recomendado)
+
+Se você clonou o repositório usando Git, atualizar o ModPack é muito simples:
+
+1. Abra o **Prompt de Comando** (pressione `Win + R`, digite `cmd` e pressione Enter).
+2. Navegue até a pasta onde você clonou o repositório do ModPack:
+   
+   ```bash
+   cd caminho/para/sua/pasta/ModPack-Server-1
+   ```
+
+3. Digite o comando a seguir para baixar as atualizações mais recentes:
+
+   ```bash
+   git pull
+   ```
+
+Isso atualizará automaticamente a pasta `mods` com qualquer nova modificação ou adição.
+
+4. Depois de atualizar, copie os novos arquivos da pasta `ModPack-Server-1/mods` para a pasta `mods` do seu Minecraft, como feito no [Passo 4](#passo-4-copiar-os-mods-para-a-pasta-do-minecraft).
+
+#### Método 2: Atualizando Manualmente
+
+Se você baixou os arquivos manualmente, siga estas etapas:
+
+1. Acesse o repositório no GitHub: [https://github.com/kami-note/ModPack-Server-1](https://github.com/kami-note/ModPack-Server-1).
+2. Clique no botão `Code` e depois em `Download ZIP` para baixar a versão mais recente.
+3. Extraia o conteúdo do ZIP baixado.
+4. Substitua os arquivos da pasta `mods` no seu Minecraft (veja o [Passo 4](#passo-4-copiar-os-mods-para-a-pasta-do-minecraft)) pelos arquivos atualizados da pasta `ModPack-Server-1/mods`.
+
+### Nota Importante:
+- Ao atualizar, sempre faça uma cópia de backup da sua pasta de mods antiga, caso precise restaurar os mods anteriores por algum motivo.
+- Certifique-se de que a versão do **Minecraft Forge** que você está usando é compatível com os novos mods adicionados.
+
+Agora, você está sempre atualizado com as últimas versões do ModPack!
